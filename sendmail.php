@@ -8,7 +8,7 @@
 if(mail($_GET["email"], //to
   'HI 3GIM sensor E-mail', //title
   ' 3GIM ALARM ',"\r\n",'DATE = ',date('y-m-d').
-  '   TIME = ',date('H:m:s')."\n" .
+  '   TIME = ',date('H:m:s')."\r\n" .
   'X-Mailer:PHP/'.phpVersion()))
 { echo'<B>SUCCESS to SEND</B><BR>';}
 else
